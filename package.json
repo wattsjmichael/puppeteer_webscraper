@@ -1,0 +1,24 @@
+{
+  "name": "puppeteerwebscraping",
+  "version": "1.0.0",
+  "description": "Webscraping app for websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wattsjmichael/puppeteer_webscraper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wattsjmichael/puppeteer_webscraper/issues"
+  },
+  "homepage": "https://github.com/wattsjmichael/puppeteer_webscraper#readme",
+  "dependencies": {
+    "puppeteer": "^5.5.0"
+  }
+}
