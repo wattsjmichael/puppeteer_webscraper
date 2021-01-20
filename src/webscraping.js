@@ -11,10 +11,10 @@ const webscraping = async pageURL => {
   try {
     await page.goto(pageURL);
     const publishedNews = await page.evaluate(()=>{
-      const newsDOM = document.querySelectorAll("li.cat-post-item");
+      const newsDOM = document.querySelectorAll("#recent-posts-3 > ul > li");
       let newsList = [];
       newsDOM.forEach(linkElement => {
-        const currentNews = linkElement.querySelector("a.cat-post-title")
+        const currentNews = linkElement.querySelector("a")
         .innerText;
         newsList.push(currentNews);
       });
